@@ -1,0 +1,144 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a5323c226e0497b42e4dba87f2a2a8e5",
+    "packages": [
+        {
+            "name": "aukhanev/edge-cpt",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "bitbucket-aukhanev:aukhanev/edge-cpt.git",
+                "reference": "66fd6ab9dee2adb7bcbc377d856b22ffcb04bc71"
+            },
+            "require": {
+                "php": "^5.3 | ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Ukhanev",
+                    "email": "xedin.unknown@gmail.com"
+                }
+            ],
+            "description": "Custom post types for Edge, the WP theme framework",
+            "time": "2017-06-18T19:11:19+00:00"
+        },
+        {
+            "name": "aukhanev/edge-instagram-feed",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "bitbucket-aukhanev:aukhanev/edge-instagram-feed.git",
+                "reference": "9daa376cf1fc94e6e80c2fd92b8719841be1f38b"
+            },
+            "require": {
+                "php": "^5.3 | ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Ukhanev",
+                    "email": "xedin.unknown@gmail.com"
+                }
+            ],
+            "description": "Plugin that adds Instagram feed functionality to Edge, the WP theme framework, and its derivatives, such as Kolumn.",
+            "time": "2017-06-18T19:18:00+00:00"
+        },
+        {
+            "name": "aukhanev/edge-twitter-feed",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "bitbucket-aukhanev:aukhanev/edge-twitter-feed.git",
+                "reference": "8243b2f64eb1c33e5e22c0c6872e058eb2fc79b6"
+            },
+            "require": {
+                "php": "^5.3 | ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Ukhanev",
+                    "email": "xedin.unknown@gmail.com"
+                }
+            ],
+            "description": "Plugin that adds Twitter feed functionality to Edge, the WP theme frameworks, and its derivatives, such as Kolumn.",
+            "time": "2017-06-18T19:31:44+00:00"
+        },
+        {
+            "name": "aukhanev/js_composer",
+            "version": "v4.11.2.1",
+            "source": {
+                "type": "git",
+                "url": "bitbucket-aukhanev:aukhanev/js_composer.git",
+                "reference": "701ba1e14cfcbadfa20d2dc7d909dab3815fcfd3"
+            },
+            "require": {
+                "php": "^5.3 | ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.3"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Ukhanev",
+                    "email": "xedin.unknown@gmail.com"
+                }
+            ],
+            "description": "WPBakery's Visual Composer",
+            "time": "2017-06-18T18:54:41+00:00"
+        },
+        {
+            "name": "aukhanev/kolumn",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "bitbucket-aukhanev:aukhanev/kolumn.git",
+                "reference": "1adb7a76065bea3318b34f2ab85e91dd4241a232"
+            },
+            "require": {
+                "aukhanev/edge-cpt": "^1.0",
+                "aukhanev/edge-instagram-feed": "^1.0",
+                "aukhanev/edge-twitter-feed": "^1.0",
+                "aukhanev/js_composer": "^4.11.2",
+                "php": "^5.3 | ^7.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Ukhanev",
+                    "email": "xedin.unknown@gmail.com"
+                }
+            ],
+            "description": "The Kolumn theme for WP",
+            "time": "2017-06-18T19:58:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.3 | ^7.0"
+    },
+    "platform-dev": []
+}
